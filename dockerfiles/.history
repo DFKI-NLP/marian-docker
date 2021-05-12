@@ -1,0 +1,12 @@
+2021-05-04.21-46-22 vim marian_1.10.0_sentencepiece.Dockerfile 
+2021-05-04.21-47-07 ls Dockerfile
+2021-05-04.21-49-42 less marian_1.10.0_sentencepiece.Dockerfile
+2021-05-04.21-49-54 mv marian_1.10.0_sentencepiece.Dockerfile marian_1.10.0_no-sentencepiece.Dockerfile
+2021-05-04.21-51-44 cp marian_1.10.0_no-sentencepiece.Dockerfile marian_1.10.0_sentencepiece.Dockerfile
+2021-05-04.21-51-56 gedit marian_1.9.0_sentencepiece.Dockerfile &
+2021-05-04.21-53-22 vim marian_1.10.0_sentencepiece.Dockerfile 
+2021-05-04.22-01-23 vim marian_1.10.0_sentencepiece.Dockerfile 
+2021-05-05.01-13-45 cp marian_1.10.0_sentencepiece.Dockerfile  marian_1.10.0_sentencepiece_cuda_11.3.0.Dockerfile
+2021-05-05.01-14-14 vim marian_1.10.0_sentencepiece_cuda_11.3.0.Dockerfile 
+2021-05-05.01-15-00 docker build --tag lefterav/marian-nmt:1.10.0_sentencepiece_cuda-11.3.0 - < dockerfiles/marian_1.10.0_sentencepiece_cuda_11.3.0.Dockerfile 
+2021-05-05.01-15-07 docker build --tag lefterav/marian-nmt:1.10.0_sentencepiece_cuda-11.3.0 - < dockerfiles/marian_1.10.0_sentencepiece_cuda_11.3.0.Dockerfile 
